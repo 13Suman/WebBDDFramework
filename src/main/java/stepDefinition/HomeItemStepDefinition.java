@@ -68,27 +68,7 @@ public class HomeItemStepDefinition {
 	public void users_adds_painting_and_watches() throws InterruptedException {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//span[text()='Home & Furniture']")).click();
-		Thread.sleep(2000);
 		driver.findElement(By.xpath("(//a[text()='Paintings'])[1]")).click();
-		Thread.sleep(2000);
-		
-		//Actions act = new Actions(driver);
-//		act.click(homefur).perform();
-//
-//		act.pause(2000).perform();
-//
-//		WebElement painting = driver.findElement(By.xpath("(//a[text()='Paintings'])[1]"));
-//		act.click(painting).perform();
-//
-//		act.pause(3000).perform();
-//		WebElement rightSlider = driver.findElement(By.xpath("//div[@class='_3G9WVX _2N3EuE']"));
-//
-//		act.clickAndHold(rightSlider).perform();
-//		act.moveByOffset(-90, 0).perform();
-//		act.release(rightSlider).perform();
-//
-//		act.pause(3000);
-
 	}
 
 	@Then("^Close the browser$")
